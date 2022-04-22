@@ -1,0 +1,102 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco
+    last_name: Espinosa
+    
+    # Define yourself in 4-5 words
+    motto: There always is something new to learn.
+    
+    # focus
+    focus: Web development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I have a degree in Business administration and year of experience in digital marketing. Now, I have decided to change my career and becoming a web developer.
+             It won't be easy, but I am so exited to start this new adventure. 
+    
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: f.espinosa.suarez@gmail.com #optional
+    phone: +34 661 106 668 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/fjavierespinosasuarez/ #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: franciscoespinosasuarez
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Videogames
+
+      - item: Hiking
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Business administration
+      university: Universidad de Cádiz
+      time: 2007 - 2012
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Digital Content Management
+      time: 2021 - Present
+      company: Accenture
+      # optional
+      company_logo:
+      details: |
+          - Translation from English to Spanish
+          - Creation of content for the client blog
+          - Upload content to the client webiste with Adobe Experience Manager
+
+    - role: Digital Content Creator 
+      time: 2018- 2021
+      company: Freelancer
+      # optional
+      company_logo:
+      details: |
+          - Creation of content for Social Media 
+          - Blogging 
+          - SEO / SEM 
+
+    - role: Community Manager
+      time: 2016 - 2018
+      company: Sprimsol
+      # optional
+      company_logo:
+      details: |
+          - Social Media
+          - SEO / SEM 
+
+
+    
+skills:
+    toolset:
+      - name: Javascript
+        level: 40%
+
+      - name: CSS
+        level: 60%
+
+      - name: HTML5
+        level: 80%
